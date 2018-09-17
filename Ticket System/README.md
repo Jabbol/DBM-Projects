@@ -48,6 +48,9 @@ This is a reworked version of my previous [Advanced Ticket Sytem](https://github
 - **Setting the Ticket Support Role** (Only for users with "MANAGE_GUILD" permissions)    
   _This command sets the role that will act as the support team and assist users within the tickets._    
   `setticketsupport <Role Name>`, `settsupport <Role Name>`    
+- **Viewing Current Ticket Settings**    
+  _It will show you the varying settings in the current server as well as their values._    
+  `ticketsettings`, `tsettings`    
 </p></details>
 </p></details>
 
