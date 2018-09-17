@@ -40,8 +40,8 @@ This is a reworked version of my previous [Advanced Ticket Sytem](https://github
   _This will set the channel that ticket creations, deletions and updates will be logged to._    
   `setticketlog <#channel-name>`, `settlog <#channel-name>`    
 - **Setting the Post-Ticket Log File Log** (Only for users with "MANAGE_GUILD" permissions)    
-  _This sets which channel that closed ticket logs are sent to. This channel should be private, as it could contain personal information of the user. If the parameter is blank, it will disable this feature._    
-  `setticketfilelog`, `settfilelog`, `setticketfilelog <#channel-name>`, `settfilelog <#channel-name>`    
+  _This sets which channel that closed ticket logs are sent to. This channel should be private, as it could contain personal information of the user._    
+  `setticketfilelog <#channel-name>`, `settfilelog <#channel-name>`    
 - **Setting the Ticket Manager Role** (Only for users with "MANAGE_GUILD" permissions)    
   _This command sets the role that will act as a manager and oversee the support role._    
   `setticketmanager <Role Name>`, `settmanager <Role Name>`
