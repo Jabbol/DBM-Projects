@@ -1,5 +1,5 @@
 ## General Information    
-This is a reworked version of my previous [Advanced Ticket Sytem](https://github.com/zachdoug24/dbm-projects/tree/adv_ticket_sys) that features much more variability for servers that feature a large amount of Bots.
+This is a reworked version of my previous [Advanced Ticket Sytem](https://github.com/zachdoug24/dbm-projects/tree/adv_ticket_sys) that features much more variability for bots that feature a large variety of servers. This has all the features the previous included, plus much more. 
 
 ## Important Information / Notes    
 
@@ -53,4 +53,4 @@ This is a reworked version of my previous [Advanced Ticket Sytem](https://github
 
 ## Credits and Disclaimers
 ##### Many credits to [DogV2](https://github.com/DogV2/) for the Ticket Logging Events that are used in this system.    
-All code listed in this repository unless explicitly stated are all created by me, if I use code from another I will credit them appropriately. If you have issues with any of the codes stated, please make sure you have followed everything in the **Important Information / Notes** section prior to doing anything else. If you still have issues after that, then please, ***do not ping me or DM me***, but instead ask in the of the [Raw Data Server](https://discord.gg/RyNZ8xB)'s Support Server.
+All code listed in this repository unless explicitly stated are all created by me, if I use code from another I will credit them appropriately. If you have issues with any of the codes stated, please make sure you have followed everything in the **Important Information / Notes** section prior to doing anything else. If you still have issues after that, then please, ***do not ping me or DM me***, but instead ask in the of the [Raw Data Server's #support Channel](https://discord.gg/cW9zmCu).
