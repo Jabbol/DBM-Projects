@@ -6,7 +6,7 @@ This is a reworked version of my previous [Advanced Ticket Sytem](https://github
 1. Before attempting to get support, please make sure that you have the following in BOTH your Bot Files as well as your DBM Files.
     - [x] [Beta Version of Discord Bot Maker](https://dbotmaker.io/forums/threads/how-to-join-the-beta-version-for-newbies-and-more.63/).
     - [x] [The Latest Beta Mods](https://github.com/Discord-Bot-Maker-Mods/DBM-Mods/tree/beta).
-2. When the bot joins a new server, please make sure to alert people to use the command `[prefix]ticketsettings` to see a list of commands users with the **MANAGE_GUILD** permission must use before the system will work appropriately, as well as their values if they are already currently set.    
+2. When the bot joins a new server, please make sure to alert people to use the command `ticketsettings` to see a list of commands users with the **MANAGE_GUILD** permission must use before the system will work appropriately, as well as their values if they are already currently set.    
 3. Be sure you are not downloading the files and putting them in the DBM Directory, but instead Copying the data of each file into a new Command / Event.
 
 ## Command Syntaxes and Descriptions    
@@ -89,4 +89,4 @@ _It will show you the varying settings in the current server as well as their va
 
 ## Credits and Disclaimers
 ##### Many credits and thanks to [DogV2](https://github.com/DogV2/) for the Ticket Logging Events that are used in this system, as well as releasing his variant of the Ticket System which encouraged me to rework my previous one.    
-All code listed in this repository unless explicitly stated are all created by me, if I use code from another I will credit them appropriately. If you have issues with any of the codes stated, please make sure you have followed everything in the **Important Information / Notes** section prior to doing anything else. If you still have issues after that, then please, ***do not ping me or DM me***, but instead ask in the of the [Raw Data Server's Support Channel](https://discord.gg/cW9zmCu) and you will be assisted when someone is able to.
+All code listed in this repository unless explicitly stated are all created by me, if I use code from another I will credit them appropriately. If you have issues with any of the codes stated, please make sure you have followed everything in the **Important Information / Notes** section prior to doing anything else. If you still have issues after that, then please, **`do not ping me or DM me`**, but instead ask in the of the [Raw Data Server's Support Channel](https://discord.gg/cW9zmCu) and you will be assisted when someone is able to.
