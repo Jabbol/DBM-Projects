@@ -15,42 +15,64 @@ This is a reworked version of my previous [Advanced Ticket Sytem](https://github
   <p>
 <!--  -->
     
-- **Creating a New Ticket**    
+- **Creating a New Ticket** [`newticket.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/newticket.js)    
   _These commands will allow you to create a new ticket, either with no reason specified or with whatever you specify._    
   `newticket`, `new`, `createticket`, `newticket <reason>`, `new <reason>`, `createticket <reason>`    
-- **Closing a Ticket** (For users with full ticket permissions)    
-  _These commands must be run by users who have full permissions in the specific ticket channel this command is run in and will close the ticket after 15 minutes of no activity._    
-  `closeticket`, `close`, `closeticket <reason>`, `close <reason>`    
-- **Forceclosing a Ticket** (For the roles specified as support and managers)    
-  _These commands will instantly close the ticket channel it is used in._    
-  `forcecloseticket`, `forceclose`, `fclose`, `forcecloseticket <reason>`, `forceclose <reason>`, `fclose <reason>`    
-- **Adding a User to a Ticket** (Can only done by users with full ticket permissions)    
-  _This command will add a user to the ticket, either with full permissions which will enable them to do what the original creator could do, or with normal permissions which will only enable viewing and speaking in the channel. By default it adds them with normal permissions._    
-  `adduser <@user>`, `adduser <@user> normal`, `adduser <@user> full`
-- **Elevating the Ticket to Management Only** (For the roles specified as support and managers)    
-  _This command will cause users in the designated support team role to be unable to view the ticket anymore, thus making it for management only._    
-  `elevateticket`, `eticket`    
-- **Claiming a Ticket** (For the roles specified as support and managers)    
-  _This command will 'claim' a ticket, meaning that it is notifying the user that the member who ran the command will be the one primarily helping you with your issue. This still allows users with the support and manager roles to see and assist, however._    
-  `claimticket`, `cticket`    
-- **Setting the Tickets Category** (Only for users with "MANAGE_GUILD" permissions)    
-  _This will setup the category that tickets are sent to once created. This MUST be a category ID and it must be valid, else everything will break._    
-  `setticketcategoryid <Category ID>`, `settcatid <Category ID>`    
-- **Setting the Ticket Log** (Only for users with "MANAGE_GUILD" permissions)    
-  _This will set the channel that ticket creations, deletions and updates will be logged to._    
-  `setticketlog <#channel-name>`, `settlog <#channel-name>`    
-- **Setting the Post-Ticket Log File Log** (Only for users with "MANAGE_GUILD" permissions)    
-  _This sets which channel that closed ticket logs are sent to. This channel should be private, as it could contain personal information of the user._    
-  `setticketfilelog <#channel-name>`, `settfilelog <#channel-name>`    
-- **Setting the Ticket Manager Role** (Only for users with "MANAGE_GUILD" permissions)    
-  _This command sets the role that will act as a manager and oversee the support role._    
-  `setticketmanager <Role Name>`, `settmanager <Role Name>`
-- **Setting the Ticket Support Role** (Only for users with "MANAGE_GUILD" permissions)    
-  _This command sets the role that will act as the support team and assist users within the tickets._    
-  `setticketsupport <Role Name>`, `settsupport <Role Name>`    
-- **Viewing Current Ticket Settings**    
-  _It will show you the varying settings in the current server as well as their values._    
-  `ticketsettings`, `tsettings`    
+  ####    
+- **Closing a Ticket** [`closeticket.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/closeticket.js)    
+(For users with full ticket permissions)    
+_These commands must be run by users who have full permissions in the specific ticket channel this command is run in and will close the ticket after 15 minutes of no activity._    
+`closeticket`, `close`, `closeticket <reason>`, `close <reason>`    
+####    
+- **Forceclosing a Ticket** [`forcecloseticket.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/forcecloseticket.js)    
+(For the roles specified as support and managers)    
+_These commands will instantly close the ticket channel it is used in._    
+`forcecloseticket`, `forceclose`, `fclose`, `forcecloseticket <reason>`, `forceclose <reason>`, `fclose <reason>`    
+####    
+- **Adding a User to a Ticket** [`addticket.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/addticket.js)    
+(Can only done by users with full ticket permissions)    
+_This command will add a user to the ticket, either with full permissions which will enable them to do what the original creator could do, or with normal permissions which will only enable viewing and speaking in the channel. By default it adds them with normal permissions._    
+`adduser <@user>`, `adduser <@user> normal`, `adduser <@user> full`
+####    
+- **Elevating the Ticket to Management Only** [`elevateticket.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/elevateticket.js)    
+(For the roles specified as support and managers)    
+_This command will cause users in the designated support team role to be unable to view the ticket anymore, thus making it for management only._    
+`elevateticket`, `eticket`    
+####    
+- **Claiming a Ticket** [`claimticket.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/claimticket.js)    
+(For the roles specified as support and managers)    
+_This command will 'claim' a ticket, meaning that it is notifying the user that the member who ran the command will be the one primarily helping you with your issue. This still allows users with the support and manager roles to see and assist, however._    
+`claimticket`, `cticket`    
+####    
+- **Setting the Tickets Category** [`setticketcategoryid.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/setticketcategoryid.js)    
+(Only for users with "MANAGE_GUILD" permissions)    
+_This will setup the category that tickets are sent to once created. This MUST be a category ID and it must be valid, else everything will break._    
+`setticketcategoryid <Category ID>`, `settcatid <Category ID>`    
+####    
+- **Setting the Ticket Log** [`setticketlog.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/setticketlog.js)     
+(Only for users with "MANAGE_GUILD" permissions)    
+_This will set the channel that ticket creations, deletions and updates will be logged to._    
+`setticketlog <#channel-name>`, `settlog <#channel-name>`        
+####    
+- **Setting the Post-Ticket Log File Log** [`setticketfilelog.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/setticketfilelog.js)    
+(Only for users with "MANAGE_GUILD" permissions)    
+_This sets which channel that closed ticket logs are sent to. This channel should be private, as it could contain personal information of the user._    
+`setticketfilelog <#channel-name>`, `settfilelog <#channel-name>`    
+####    
+- **Setting the Ticket Manager Role** [`setticketmanager.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/setticketmanager.js)    
+(Only for users with "MANAGE_GUILD" permissions)    
+_This command sets the role that will act as a manager and oversee the support role._    
+`setticketmanager <Role Name>`, `settmanager <Role Name>`
+####    
+- **Setting the Ticket Support Role** [`setticketsupport.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/setticketsupport.js)    
+(Only for users with "MANAGE_GUILD" permissions)    
+_This command sets the role that will act as the support team and assist users within the tickets._    
+`setticketsupport <Role Name>`, `settsupport <Role Name>`    
+####    
+- **Viewing Current Ticket Settings** [`ticketsettings.js`](https://github.com/dcorvus/DBM-Projects/blob/development/Ticket%20System/Commands/ticketsettings.js)     
+_It will show you the varying settings in the current server as well as their values._    
+`ticketsettings`, `tsettings`    
+####    
 </p></details>
 </p></details>
 
