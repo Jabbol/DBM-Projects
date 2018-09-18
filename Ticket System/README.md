@@ -60,7 +60,8 @@ This is a reworked version of my previous [Advanced Ticket Sytem](https://github
   <p>
 <!--  -->
       
-![Example 1](https://tell-me.why-am-i-he.re/SRkFx.gif "Example 1") 
+![Example 1](https://tell-me.why-am-i-he.re/SRkFx.gif "Example 1")    
+![Example 2](https://tell-me.why-am-i-he.re/cRYuo.gif "Example 2")    
 </p></details>
 </p></details>
 
