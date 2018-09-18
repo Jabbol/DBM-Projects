@@ -66,5 +66,5 @@ This is a reworked version of my previous [Advanced Ticket Sytem](https://github
 </p></details>
 
 ## Credits and Disclaimers
-##### Many credits to [DogV2](https://github.com/DogV2/) for the Ticket Logging Events that are used in this system, as well as releasing his variant of the Ticket System which encouraged me to rework my previous one.    
+##### Many credits and thanks to [DogV2](https://github.com/DogV2/) for the Ticket Logging Events that are used in this system, as well as releasing his variant of the Ticket System which encouraged me to rework my previous one.    
 All code listed in this repository unless explicitly stated are all created by me, if I use code from another I will credit them appropriately. If you have issues with any of the codes stated, please make sure you have followed everything in the **Important Information / Notes** section prior to doing anything else. If you still have issues after that, then please, ***do not ping me or DM me***, but instead ask in the of the [Raw Data Server's #support Channel](https://discord.gg/cW9zmCu).
