@@ -1,8 +1,6 @@
 # DBM Projects
 ## General Repository Information    
-This repository is where I, [`dcorvus`](https://github.com/dcorvus), will be keeping track of all projects created via Discord Bot Maker that I will publicly give to the users of the community. Some of the commands will be singular bits of code, others will be full-blown projects that span multiple commands and events.    
-
-You can find a list of each below.    
+This repository is where I, [`dcorvus`](https://github.com/dcorvus), will be keeping track of all projects created via Discord Bot Maker that I will publicly give to the users of the community. Some of the commands will be singular bits of code, others will be full-blown projects that span multiple commands and events. All of these commands have had a fair amount of effort put into them, so if you have followed all instructions, as well asYou can find a list of each below.    
     
     
     
@@ -40,7 +38,7 @@ Find out which projects belong in which category, as well as how many files, com
 <!--  -->
     
 - **Ticket System** [`Ticket System`](/Ticket%20System)    
-  _This ticket system is multi-functional with the ability to create two tiers of support groups, a base line as well as a managerial rank which superceeds the default support group. As this is a rework of my previous one, this no longer creates roles, but now allows you to add other users to the ticket with either full ticket permissions or a read and message only permission. The project also features a logging system, where the user that closes the ticket will receive a Private Message of the chat logs, as well as the logs have the ability to be sent to a channel of your choosing (preferably private) in case the user loses it or requests another copy._    
+  _This ticket system is multi-functional with the ability to create two tiers of support groups, a base line as well as a managerial rank which superceeds the default support group. As this is a rework of my previous one, this no longer creates roles, but now allows you to add other users to the ticket with either full ticket permissions or a read and message only permission. The project also features a logging system, where the user that closes the ticket will receive a Private Message of the chat logs, as well as the logs have the ability to be sent to a channel of your choosing (preferably private) in case the user loses it or requests another copy. Another selling point is the fact that you do not have to edit anything within the Raw Data yourself, it works out of the box and allows users to set everything themselves._    
   `Total Files: 15` **-** `Commands: 12` **-** `Events: 3`
   ####    
 </p></details>
