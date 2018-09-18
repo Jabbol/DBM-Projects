@@ -340,20 +340,6 @@
       "time": "5",
       "measurement": "1",
       "name": "Wait"
-    },
-    {
-      "channel": "1",
-      "varName": "ticket-file-log-channel",
-      "file": "./resources/servers/${tempVars(\"server-id\")}/tickets/${tempVars(\"channel-name\")}.log",
-      "message": "",
-      "name": "Send File"
-    },
-    {
-      "channel": "6",
-      "varName": "ticket-file-log-channel",
-      "file": "./resources/servers/${tempVars(\"server-id\")}/tickets/${tempVars(\"channel-name\")}.log",
-      "message": "",
-      "name": "Send File"
     }
   ],
   "_aliases": [
