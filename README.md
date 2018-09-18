@@ -3,10 +3,12 @@
 This repository is where I, [`dcorvus`](https://github.com/dcorvus), will be keeping track of all projects created via Discord Bot Maker that I will publicly give to the users of the community. Some of the commands will be singular bits of code, others will be full-blown projects that span multiple commands and events.    
 
 You can find a list of each below.    
-
+    
+    
+    
 ## Project Listings    
 Find out which projects belong in which category, as well as how many files, commands and events there are.    
-
+    
 #### Small Raw Data Packs    
 <details>
   <summary>Click to view/hide</summary>
@@ -17,6 +19,7 @@ Find out which projects belong in which category, as well as how many files, com
   ####    
 </p></details>
 </p></details>
+    
 
 #### Medium Raw Data Packs    
 <details>
@@ -28,6 +31,7 @@ Find out which projects belong in which category, as well as how many files, com
   ####    
 </p></details>
 </p></details>
+   
 
 #### Large Raw Data Packs    
 <details>
@@ -41,6 +45,8 @@ Find out which projects belong in which category, as well as how many files, com
   ####    
 </p></details>
 </p></details>
-
+    
+    
+    
 ## Credits and Disclaimers
 All code listed in this repository unless explicitly stated are all created by me, if I use code from another I will credit them appropriately. If you have issues with any of the codes stated, please make sure you have followed everything in the **Important Information / Notes** section of the appropriate Raw Data Pack prior to doing anything else. If you still have issues after that, then please, ***do not ping me or DM me***, but instead ask in the of the [Raw Data Server's #support Channel](https://discord.gg/cW9zmCu) and you will be assisted when someone is able to.
