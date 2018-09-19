@@ -31,19 +31,19 @@ This is a reworked version of my previous [Verification System](https://github.c
   ####    
 
 - **Setting the Verification Role** [`setverifiedrole.js`](/Verification%20System/Commands/setverifiedrole.js)    
-  (For users with the "MANAGE_GUILD" permission)
+  (For users with the "MANAGE_GUILD" permission)    
   _This will set the role that the user will get added to when successfully verified._    
   `setverifiedrole <Role Name>`, `setvrole <Role Name>`    
   ####    
   
 - **Setting the Verification Channel** [`setverifychannel.js`](/Verification%20System/Commands/setverifychannel.js)    
-  (For users with the "MANAGE_GUILD" permission)
+  (For users with the "MANAGE_GUILD" permission)    
   _This will set the channel that the user must issue the verification command in._    
   `setverifychannel <#channel>`, `setvchannel <#channel>`    
   ####    
   
 - **Setting the Verification Log Channel** [`setverifylogchannel.js`](/Verification%20System/Commands/setverifylogchannel.js)    
-  (For users with the "MANAGE_GUILD" permission)
+  (For users with the "MANAGE_GUILD" permission)    
   _This sets the channel that logs when a user successfully verifies themselves._    
   `setverifylogchannel <#channel>`, `setvlogchannel <#channel>`    
   ####    
