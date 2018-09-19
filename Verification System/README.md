@@ -7,7 +7,7 @@ This is a reworked version of my previous [Verification System](https://github.c
     - [x] [Beta Version of Discord Bot Maker](https://dbotmaker.io/forums/threads/how-to-join-the-beta-version-for-newbies-and-more.63/).
     - [x] [The Latest Beta Mods](https://github.com/Discord-Bot-Maker-Mods/DBM-Mods/tree/beta).
 2. When the bot joins a new server, please make sure to alert people to use the command `verifysettings` to see a list of commands users with the **MANAGE_GUILD** permission must use before the system will work appropriately, as well as their values if they are already currently set.    
-3. Be sure you are not downloading the files and putting them in the DBM Directory, but instead [Copying the data of each file into a new Command / Event](https://media.discordapp.net/attachments/491714570058989569/491716398079541279/unknown.png).    
+3. Be sure you are not downloading the files and putting them in the DBM Directory, but instead [Copying the data of each file into a new Command / Event](https://i.imgur.com/gDWVVXl.png).    
 4. If users are still able to see all channels without verifying, check if `@everyone` has "READ_MESSAGES" turned off in channels you don't want them to see.    
 5. To make sure that no messages can be sent to the verification channel, make sure that you include the events. If you have something you want pinned to the channel for users to see then you must either:
     - Make sure the bot is off.    
