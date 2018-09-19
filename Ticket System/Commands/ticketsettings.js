@@ -21,6 +21,11 @@
       "name": "Store Member Info"
     },
     {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
       "title": "Current Ticket System Settings",
       "author": "${tempVars(\"author-display\")}",
       "color": "BLUE",
@@ -53,7 +58,7 @@
       "storage": "1",
       "varName": "embed",
       "fieldName": "Ticket Log Channel",
-      "message": "Not Set. Set with `setticketlog <#channel>`.",
+      "message": "Not Set. \nSet with `setticketlog <#channel>`.",
       "inline": "0",
       "name": "Add Embed Field"
     },
@@ -89,7 +94,7 @@
       "storage": "1",
       "varName": "embed",
       "fieldName": "Ticket File Log Channel",
-      "message": "Not Set. Set with `setticketfilelog <#channel>`.",
+      "message": "Not Set. \nSet with `setticketfilelog <#channel>`.",
       "inline": "0",
       "name": "Add Embed Field"
     },
@@ -125,7 +130,7 @@
       "storage": "1",
       "varName": "embed",
       "fieldName": "Ticket Category ID",
-      "message": "Not Set. Set with `setticketcategoryid <Channel ID>`.",
+      "message": "Not Set. \nSet with `setticketcategoryid <Channel ID>`.",
       "inline": "0",
       "name": "Add Embed Field"
     },
@@ -161,7 +166,7 @@
       "storage": "1",
       "varName": "embed",
       "fieldName": "Support Role",
-      "message": "Not Set. Set with `setticketsupport <Role Name>`.",
+      "message": "Not Set. \nSet with `setticketsupport <Role Name>`.",
       "inline": "0",
       "name": "Add Embed Field"
     },
@@ -197,7 +202,7 @@
       "storage": "1",
       "varName": "embed",
       "fieldName": "Manager Role",
-      "message": "Not Set. Set with `setticketmanager <Role Name>`.",
+      "message": "Not Set. \nSet with `setticketmanager <Role Name>`.",
       "inline": "0",
       "name": "Add Embed Field"
     },
