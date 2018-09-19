@@ -62,8 +62,10 @@ This is a reworked version of my previous [Verification System](https://github.c
   <p>
 <!--  -->
       
-![Example 1](none "Example 1")    
-![Example 2](none "Example 2")    
+![Example 1](/Verification%20System/Screenshots/example-1.gif "Example 1")    
+![Example 2](/Verification%20System/Screenshots/example-2.gif "Example 2")    
+![Example 2](/Verification%20System/Screenshots/example-3.gif "Example 3")    
+![Example 2](/Verification%20System/Screenshots/example-4.gif "Example 4")    
 </p></details>
 </p></details>
 
