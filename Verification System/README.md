@@ -12,7 +12,6 @@ This is a reworked version of my previous [Verification System](https://github.c
 5. To make sure that no messages can be sent to the verification channel, make sure that you include the events. If you have something you want pinned to the channel for users to see then you must either:
     - Make sure the bot is off.    
     - Send a message via the bot to the verification channel.     
-6. I know there are currently some errors with the Event, however, I currently do not know what is causing them and will fix them at a later date.
 
 ## Command Syntaxes and Descriptions    
 <details>
