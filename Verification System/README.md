@@ -60,13 +60,39 @@ This is a reworked version of my previous [Verification System](https://github.c
 <details>
   <summary>Click to view/hide images</summary>
   <p>
-<!--  -->
-      
-![Example 1](/Verification%20System/Screenshots/example-1.gif "Example 1")    
-![Example 2](/Verification%20System/Screenshots/example-2.gif "Example 2")    
-![Example 2](/Verification%20System/Screenshots/example-3.gif "Example 3")    
-![Example 2](/Verification%20System/Screenshots/example-4.gif "Example 4")    
-</p></details>
+  <!--  -->
+    <details>
+      <summary>Click to view/hide Image 1</summary>
+      <p>
+      <!-- -->    
+
+![Example 1](/Verification%20System/Screenshots/example-1.gif "Example 1")     
+      </p></details>
+    <br>
+    <details>
+      <summary>Click to view/hide Image 2</summary>
+      <p>
+      <!-- -->    
+
+![Example 2](/Verification%20System/Screenshots/example-2.gif "Example 2")     
+    </p></details>
+    <br>
+    <details>
+      <summary>Click to view/hide Image 3</summary>
+      <p>
+      <!-- -->    
+
+![Example 3](/Verification%20System/Screenshots/example-3.gif "Example 3")     
+    </p></details>
+    <br>
+    <details>
+      <summary>Click to view/hide Image 4</summary>
+      <p>
+      <!-- -->    
+
+![Example 4](/Verification%20System/Screenshots/example-4.gif "Example 4")     
+    </p></details>
+  </p></details>
 </p></details>
 
 ## Credits and Disclaimers   

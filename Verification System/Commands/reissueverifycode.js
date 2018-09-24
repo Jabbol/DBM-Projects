@@ -221,5 +221,6 @@
   "_aliases": [
     "reverifycode",
     "revcode"
-  ]
+  ],
+  "comType": "0"
 }
