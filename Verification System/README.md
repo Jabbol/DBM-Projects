@@ -56,7 +56,7 @@ This is a reworked version of my previous [Verification System](https://github.c
 </p></details>
 </p></details>
 
-## Ticket System Images    
+## Verification System Images    
 <details>
   <summary>Click to view/hide images</summary>
   <p>
