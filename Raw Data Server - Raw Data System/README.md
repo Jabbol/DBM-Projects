@@ -12,6 +12,7 @@ This is the system that the Raw Data Server uses for their Raw data system.
     - `[Check] Whitelist or Mod` - Action #2 - Role Name
     - `[Store] SQL Connection` - Action #1 - Connection Options
 4. There may still be some issues/bugs that are being ironed out, if you see major issues with something. That is the ONLY time you are allowed to ping me.
+5. You need a channel called `rd-deletion-logs`.
 
 
 ## Credits and Disclaimers   
