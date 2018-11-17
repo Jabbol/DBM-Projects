@@ -59,7 +59,7 @@ This is the system that the Raw Data Server uses for their Raw data system.
   `forcedeletepost <rawdata id> <reason>`, `fdeletepost <rawdata id> <reason>`    
 ####    
 - **Adding or Removing Someone to the Force Whitelist** [`forcewhitelist.json`](/Raw%20Data%20Server%20-%20Raw%20Data%20System/Commands/forcewhitelist.json)    
-  _Allows a person with the MANAGE_GUILD Permission to add someone to the whitelist for using force commands._    
+  _Allows a person with the MANAGE_GUILD permission to add someone to the whitelist for using force commands or remove them. This is a toggle command, so doing it once will add them, twice will remove them._    
   `forcewhitelist <user id>`, `forcewhitelist <mention>`    
 ####    
 </p></details>
