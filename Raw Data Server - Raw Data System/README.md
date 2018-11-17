@@ -12,6 +12,11 @@ This is the system that the Raw Data Server uses for their Raw data system.
     - `[Check] Whitelist or Mod` - Action #2 - Role Name
     - `[Store] SQL Connection` - Action #1 - Connection Options
     - `[Check] Last Post Deleted` - Action #1 - Role Name
+    - `approve` - Action #3 - Role Name
+    - `deny` - Line #3 - Role Name
+    - `forceapprove` - Line #4 - Role Name
+    - `forcedeny` - Line #4 - Role Name
+
 4. There may still be some issues/bugs that are being ironed out, if you see major issues with something. That is the ONLY time you are allowed to ping me.
 5. You need a channel called `rd-deletion-logs`.
 6. In the Command Syntaxes, `<rawdata id>` is NOT the Message ID. It is the ID that looks like `#1234` in the bottom left corner of the post embed.
