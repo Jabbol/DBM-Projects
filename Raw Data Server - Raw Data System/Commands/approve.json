@@ -140,7 +140,7 @@
       "source_conn_varName": "rd-database-connection",
       "store_source_conn_storage": "0",
       "store_source_conn_varName": "",
-      "debugMode": "1",
+      "debugMode": "0",
       "name": "Run SQL Query"
     },
     {
@@ -263,7 +263,7 @@
       "source_conn_varName": "rd-database-connection",
       "store_source_conn_storage": "0",
       "store_source_conn_varName": "results",
-      "debugMode": "1",
+      "debugMode": "0",
       "name": "Run SQL Query"
     },
     {
@@ -301,7 +301,7 @@
       "source_conn_varName": "rd-database-connection",
       "store_source_conn_storage": "0",
       "store_source_conn_varName": "results",
-      "debugMode": "1",
+      "debugMode": "0",
       "name": "Run SQL Query"
     },
     {
@@ -475,7 +475,7 @@
       "source_conn_varName": "rd-database-connection",
       "store_source_conn_storage": "0",
       "store_source_conn_varName": "",
-      "debugMode": "1",
+      "debugMode": "0",
       "name": "Run SQL Query"
     },
     {
