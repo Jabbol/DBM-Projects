@@ -205,7 +205,7 @@
     {
       "channel": "5",
       "varName": "approval-channel",
-      "message": "${member} has deleted **#${tempVars(\"postidtofind\")}**\nReason: `${tempVars(\"deletionreason\")}`",
+      "message": "${member} has forcefully deleted **#${tempVars(\"postidtofind\")}**\nReason: ``${tempVars(\"deletionreason\")}``",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"

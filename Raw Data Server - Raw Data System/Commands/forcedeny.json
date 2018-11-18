@@ -258,7 +258,7 @@
     {
       "channel": "5",
       "varName": "approval-channel",
-      "message": "${member} forcefully denied **#${tempVars(\"postidtofind\")}**\nReason: `${tempVars(\"denialreason\")}`",
+      "message": "${member} forcefully denied **#${tempVars(\"postidtofind\")}**\nReason: ``${tempVars(\"denialreason\")}``",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"

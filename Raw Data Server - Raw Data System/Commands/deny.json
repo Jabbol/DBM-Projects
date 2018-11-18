@@ -297,7 +297,7 @@
     {
       "channel": "5",
       "varName": "approval-channel",
-      "message": "${member} voted to deny **#${tempVars(\"postidtofind\")}** (Total: ${tempVars(\"postdenialcount\")})\nReason: `${tempVars(\"denialreason\")}`",
+      "message": "${member} voted to deny **#${tempVars(\"postidtofind\")}** (Total: ${tempVars(\"postdenialcount\")})\nReason: ``${tempVars(\"denialreason\")}``",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"
