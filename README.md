@@ -43,6 +43,10 @@ Find out which projects belong in which category, as well as how many files, com
 - **Ticket System** [`Ticket System`](/Ticket%20System)    
   _This ticket system is multi-functional with the ability to create two tiers of support groups, a base line as well as a managerial rank which superceeds the default support group. As this is a rework of my previous one, this no longer creates roles, but now allows you to add other users to the ticket with either full ticket permissions or a read and message only permission. The project also features a logging system, where the user that closes the ticket will receive a Private Message of the chat logs, as well as the logs have the ability to be sent to a channel of your choosing (preferably private) in case the user loses it or requests another copy. Another selling point is the fact that you do not have to edit anything within the Raw Data yourself, it works out of the box and allows users to set everything themselves._    
   `Total Files: 12` **-** `Commands: 12` **-** `Events: 0`
+  ####   
+  - **Daw Data System** [`Raw Data Server - Raw Data System`](/Raw%20Data%20Server%20-%20Raw%20Data%20System)    
+  _This is the system the Raw Data Server uses. Pretty self-explanatory._    
+  `Total Files: 15` **-** `Commands: 14` **-** `Events: 1`
   ####    
 </p></details>
 </p></details>
