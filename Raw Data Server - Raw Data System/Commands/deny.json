@@ -66,6 +66,14 @@
       "name": "Store Command Params"
     },
     {
+      "behavior": "1",
+      "interpretation": "0",
+      "code": "var param = tempVars(\"postidtofind\");\nvar patt = /[0-9]/g;\nif(param.match(patt)){\nthis.callNextAction(cache)\n} else{\nmsg.channel.send(\":x: Invalid post.\")\n}",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
       "info": "1",
       "infoIndex": "2",
       "storage": "1",
@@ -164,6 +172,14 @@
       "name": "Run SQL Query"
     },
     {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "var postid = tempVars(\"results\")[0].post_id;\nvar postauthorid = tempVars(\"results\")[0].post_author_id;\nvar postauthor = tempVars(\"results\")[0].post_author_name;\nvar postauthorimg = tempVars(\"results\")[0].post_author_img;\nvar postbody = tempVars(\"results\")[0].post_body;\nvar postcategory = tempVars(\"results\")[0].post_category;\nvar postactive = tempVars(\"results\")[0].active_post;\nvar postapprovalcount = tempVars(\"results\")[0].approve_count;\nvar postdenialcount = tempVars(\"results\")[0].deny_count;\nvar postdenialreasons = tempVars(\"results\")[0].deny_reasons;\nvar voters = tempVars(\"results\")[0].users_voted;\nvar active = postactive;\nvar msgid = tempVars(\"results\")[0].post_msg_id;\n\nif (postactive == 1) {\n  var status = \"1\";\n  var postdenycount = parseInt(postdenialcount) + 1;\n} else if (postactive == 0) {\n  var status = \"0\";\n} else {\n  var status = \"-1\";\n};\nvar id = postid\nJSON.stringify(id)\nid = parseInt(id)\nif(!id){\n  console.log(\"Does Not Exist.\")\n  id = \"undefined\"\n  this.storeValue(id, 1, \"post-id\", cache)\n};\n\nthis.storeValue(postid, 1, \"postid\", cache);\nthis.storeValue(postauthorid, 1, \"postauthorid\", cache);\nthis.storeValue(postauthor, 1, \"postauthor\", cache);\nthis.storeValue(postauthorimg, 1, \"postauthorimg\", cache);\nthis.storeValue(postbody, 1, \"postbody\", cache);\nthis.storeValue(postcategory, 1, \"postcategory\", cache);\nthis.storeValue(postactive, 1, \"postactive\", cache);\nthis.storeValue(postapprovalcount, 1, \"postapprovalcount\", cache);\nthis.storeValue(postdenycount, 1, \"postdenialcount\", cache);\nthis.storeValue(postdenialreasons, 1, \"postdreasons\", cache);\nthis.storeValue(status, 1, \"status\", cache);\nthis.storeValue(voters, 1, \"usersvoted\", cache);\nthis.storeValue(msgid, 1, \"originalmsgid\", cache);",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
       "storage": "1",
       "varName": "results",
       "comparison": "1",
@@ -175,18 +191,10 @@
       "name": "Check Variable"
     },
     {
-      "behavior": "0",
-      "interpretation": "0",
-      "code": "var postid = tempVars(\"results\")[0].post_id;\nvar postauthorid = tempVars(\"results\")[0].post_author_id;\nvar postauthor = tempVars(\"results\")[0].post_author_name;\nvar postauthorimg = tempVars(\"results\")[0].post_author_img;\nvar postbody = tempVars(\"results\")[0].post_body;\nvar postcategory = tempVars(\"results\")[0].post_category;\nvar postactive = tempVars(\"results\")[0].active_post;\nvar postapprovalcount = tempVars(\"results\")[0].approve_count;\nvar postdenialcount = tempVars(\"results\")[0].deny_count;\nvar postdenialreasons = tempVars(\"results\")[0].deny_reasons;\nvar voters = tempVars(\"results\")[0].users_voted;\nvar active = postactive;\nvar msgid = tempVars(\"results\")[0].post_msg_id;\n\nif (postactive == 1) {\n  var status = \"1\";\n  var postdenycount = parseInt(postdenialcount) + 1;\n} else if (postactive == 0) {\n  var status = \"0\";\n} else {\n  var status = \"-1\";\n};\n\n\nthis.storeValue(postid, 1, \"postid\", cache);\nthis.storeValue(postauthorid, 1, \"postauthorid\", cache);\nthis.storeValue(postauthor, 1, \"postauthor\", cache);\nthis.storeValue(postauthorimg, 1, \"postauthorimg\", cache);\nthis.storeValue(postbody, 1, \"postbody\", cache);\nthis.storeValue(postcategory, 1, \"postcategory\", cache);\nthis.storeValue(postactive, 1, \"postactive\", cache);\nthis.storeValue(postapprovalcount, 1, \"postapprovalcount\", cache);\nthis.storeValue(postdenycount, 1, \"postdenialcount\", cache);\nthis.storeValue(postdenialreasons, 1, \"postdreasons\", cache);\nthis.storeValue(status, 1, \"status\", cache);\nthis.storeValue(voters, 1, \"usersvoted\", cache);\nthis.storeValue(msgid, 1, \"originalmsgid\", cache);",
-      "storage": "0",
-      "varName": "",
-      "name": "Run Script"
-    },
-    {
       "storage": "1",
-      "varName": "postactive",
+      "varName": "post-id",
       "comparison": "1",
-      "value": "[]",
+      "value": "\"undefined\"",
       "iftrue": "3",
       "iftrueVal": "1",
       "iffalse": "0",
